@@ -105,21 +105,18 @@ main {
   }
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 768px) {
   body {
     background-image: none;
   }
 
   main {
-   object-fit: contain;
+    object-fit: contain;
     h1 {
-    padding: 20px;
+      padding: 20px;
       margin-bottom: 10px;
       font-size: 2rem;
-      
     }
-
-    
   }
 
   .box-image {
@@ -133,7 +130,6 @@ main {
     position: sticky;
     top: 0px;
     z-index: 1;
-
   }
 
   .lenguajes {
@@ -147,22 +143,22 @@ main {
     align-items: center;
     justify-content: center;
     font-family: "Poppins", serif;
-    
+
     text-align: center;
 
     p {
-        color: rgb(255, 255, 255);
+      color: rgb(255, 255, 255);
       font-size: 1rem;
     }
   }
 
-  .code{
-    h2{
-        margin-top: 5px;
-        width: 100%;
-        font-size: 1.3rem;
-        padding: 2px;
-        text-align: center;
+  .code {
+    h2 {
+      margin-top: 5px;
+      width: 100%;
+      font-size: 1.3rem;
+      padding: 2px;
+      text-align: center;
     }
   }
 }
